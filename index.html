@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Siafa Travel | حجوزات فنادق اسطنبول</title>
+
+<title>SIAFA TRAVEL | سيافة ترافل - حجوزات فنادق تركيا</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap" rel="stylesheet">
 
@@ -19,7 +20,7 @@ body{
 /* HERO */
 .hero{
   height:100vh;
-  background:url('https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b') center/cover no-repeat;
+  background:url('https://images.unsplash.com/photo-1524231757912-21f4fe3a7200') center/cover no-repeat;
   display:flex;
   align-items:center;
   justify-content:center;
@@ -30,33 +31,30 @@ body{
   background:rgba(0,0,0,0.65);
   padding:40px;
   border-radius:20px;
-  max-width:600px;
+  max-width:650px;
 }
 
-h1{
-  font-size:42px;
-  margin-bottom:15px;
-}
+h1{font-size:42px;margin-bottom:15px;}
 
 .btn{
   background:#d4af37;
   color:#000;
-  padding:14px 28px;
+  padding:15px 30px;
   border-radius:50px;
   text-decoration:none;
   font-weight:bold;
   display:inline-block;
-  margin-top:15px;
+  margin-top:20px;
 }
 
 /* SECTIONS */
 .section{
   padding:80px 20px;
-  max-width:1100px;
+  max-width:1200px;
   margin:auto;
 }
 
-.hotels{
+.cards{
   display:grid;
   grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
   gap:20px;
@@ -74,17 +72,7 @@ h1{
   object-fit:cover;
 }
 
-.card h3{
-  padding:15px;
-  margin:0;
-}
-
-/* WHY US */
-.features{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-  gap:20px;
-}
+.card h3{padding:15px;margin:0;}
 
 .feature{
   background:#16161d;
@@ -92,7 +80,21 @@ h1{
   border-radius:14px;
 }
 
-/* WHATSAPP FLOAT */
+/* FORM */
+form{
+  display:grid;
+  gap:15px;
+  max-width:500px;
+  margin:auto;
+}
+
+input,select{
+  padding:12px;
+  border:none;
+  border-radius:8px;
+}
+
+/* WHATSAPP */
 .whatsapp{
   position:fixed;
   bottom:20px;
@@ -123,50 +125,101 @@ footer{
 <!-- HERO -->
 <section class="hero">
   <div class="hero-box">
-    <h1>إقامتك الفاخرة في إسطنبول تبدأ معنا</h1>
-    <p>حجوزات مؤكدة — أفضل الأسعار — دعم عربي 24/7</p>
-    <a class="btn" href="https://wa.me/905XXXXXXXXX">احجز الآن عبر واتساب</a>
+    <h1>سيافة ترافل — SIAFA TRAVEL</h1>
+    <p>حجوزات فنادق في تركيا 🇹🇷 بأسعار مميزة — دعم عربي كامل</p>
+    <a class="btn" href="https://wa.me/905317387785">احجز الآن عبر واتساب</a>
   </div>
 </section>
 
-<!-- HOTELS -->
+<!-- OFFERS -->
 <section class="section">
-  <h2>فنادق مميزة</h2>
-  <div class="hotels">
+  <h2>🔥 عروضنا الحالية</h2>
+  <div class="cards">
     <div class="card">
-      <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945">
-      <h3>فنادق 5 نجوم في شيشلي</h3>
+      <img src="https://images.unsplash.com/photo-1501117716987-c8e1ecb210ef">
+      <h3>فنادق 5 نجوم في إسطنبول<br>تبدأ من 140$</h3>
     </div>
     <div class="card">
-      <img src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa">
-      <h3>إطلالات بحرية فاخرة</h3>
+      <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb">
+      <h3>باكجات شهر العسل<br>تبدأ من 200$</h3>
     </div>
     <div class="card">
       <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b">
-      <h3>عروض شهر العسل</h3>
+      <h3>عروض عائلية مميزة<br>تبدأ من 160$</h3>
     </div>
   </div>
 </section>
 
 <!-- WHY US -->
 <section class="section">
-  <h2>لماذا سيافة ترافل؟</h2>
-  <div class="features">
+  <h2>⭐ لماذا تختار سيافة ترافل؟</h2>
+  <div class="cards">
     <div class="feature">✔️ أسعار أقل من مواقع الحجز</div>
-    <div class="feature">✔️ حجوزات مؤكدة 100%</div>
-    <div class="feature">✔️ ترقية غرف حسب التوفر</div>
-    <div class="feature">✔️ دعم عربي كامل</div>
+    <div class="feature">✔️ حجوزات مؤكدة قبل الوصول</div>
+    <div class="feature">✔️ دعم عربي 24/7</div>
+    <div class="feature">✔️ إمكانية ترقية الغرف</div>
+    <div class="feature">✔️ تعامل مباشر مع الفنادق</div>
+    <div class="feature">✔️ بدون عمولات مخفية</div>
   </div>
+</section>
+
+<!-- HOTEL CRITERIA -->
+<section class="section">
+  <h2>🏨 معايير الفنادق التي نتعامل معها</h2>
+  <div class="cards">
+    <div class="feature">✔️ مواقع آمنة وقريبة من المواصلات</div>
+    <div class="feature">✔️ تقييمات عالية من النزلاء</div>
+    <div class="feature">✔️ مناسبة للعائلات العربية</div>
+    <div class="feature">✔️ مستوى نظافة وخدمة ممتاز</div>
+  </div>
+</section>
+
+<!-- BOOKING FORM -->
+<section class="section">
+  <h2>📝 طلب حجز</h2>
+
+  <form onsubmit="sendWhatsApp(); return false;">
+    <input type="text" id="name" placeholder="الاسم" required>
+    <input type="text" id="country" placeholder="الدولة">
+    <input type="date" id="checkin">
+    <input type="number" id="persons" placeholder="عدد الأشخاص">
+    <select id="budget">
+      <option>اقتصادي</option>
+      <option>متوسط</option>
+      <option>فاخر</option>
+    </select>
+
+    <button class="btn" type="submit">إرسال الطلب</button>
+  </form>
 </section>
 
 <!-- FOOTER -->
 <footer>
-  <h3>Siafa Travel</h3>
-  <p>وكالتك الموثوقة لحجوزات إسطنبول</p>
+  <h3>SIAFA TRAVEL | سيافة ترافل</h3>
+  <p>وكالتك الموثوقة لحجوزات تركيا 🇹🇷</p>
 </footer>
 
-<!-- WHATSAPP -->
+<!-- FLOAT BUTTON -->
 <a class="whatsapp" href="https://wa.me/905317387785">💬</a>
+
+<script>
+function sendWhatsApp(){
+  var name=document.getElementById("name").value;
+  var country=document.getElementById("country").value;
+  var checkin=document.getElementById("checkin").value;
+  var persons=document.getElementById("persons").value;
+  var budget=document.getElementById("budget").value;
+
+  var message=`طلب حجز جديد:
+الاسم: ${name}
+الدولة: ${country}
+تاريخ الوصول: ${checkin}
+عدد الأشخاص: ${persons}
+المستوى: ${budget}`;
+
+  window.open(`https://wa.me/905317387785?text=${encodeURIComponent(message)}`);
+}
+</script>
 
 </body>
 </html>
