@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Siafa Travel | حجوزات فنادق اسطنبول</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap" rel="stylesheet">
+
+<style>
+body{
+  margin:0;
+  font-family:'Cairo',sans-serif;
+  background:#0b0b0f;
+  color:#fff;
+  direction:rtl;
+}
+
+/* HERO */
+.hero{
+  height:100vh;
+  background:url('https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b') center/cover no-repeat;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+}
+
+.hero-box{
+  background:rgba(0,0,0,0.65);
+  padding:40px;
+  border-radius:20px;
+  max-width:600px;
+}
+
+h1{
+  font-size:42px;
+  margin-bottom:15px;
+}
+
+.btn{
+  background:#d4af37;
+  color:#000;
+  padding:14px 28px;
+  border-radius:50px;
+  text-decoration:none;
+  font-weight:bold;
+  display:inline-block;
+  margin-top:15px;
+}
+
+/* SECTIONS */
+.section{
+  padding:80px 20px;
+  max-width:1100px;
+  margin:auto;
+}
+
+.hotels{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:20px;
+}
+
+.card{
+  background:#16161d;
+  border-radius:16px;
+  overflow:hidden;
+}
+
+.card img{
+  width:100%;
+  height:180px;
+  object-fit:cover;
+}
+
+.card h3{
+  padding:15px;
+  margin:0;
+}
+
+/* WHY US */
+.features{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+}
+
+.feature{
+  background:#16161d;
+  padding:25px;
+  border-radius:14px;
+}
+
+/* WHATSAPP FLOAT */
+.whatsapp{
+  position:fixed;
+  bottom:20px;
+  left:20px;
+  background:#25D366;
+  width:65px;
+  height:65px;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:32px;
+  color:#fff;
+  text-decoration:none;
+}
+
+/* FOOTER */
+footer{
+  text-align:center;
+  padding:40px;
+  background:#050508;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-box">
+    <h1>إقامتك الفاخرة في إسطنبول تبدأ معنا</h1>
+    <p>حجوزات مؤكدة — أفضل الأسعار — دعم عربي 24/7</p>
+    <a class="btn" href="https://wa.me/905XXXXXXXXX">احجز الآن عبر واتساب</a>
+  </div>
+</section>
+
+<!-- HOTELS -->
+<section class="section">
+  <h2>فنادق مميزة</h2>
+  <div class="hotels">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945">
+      <h3>فنادق 5 نجوم في شيشلي</h3>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa">
+      <h3>إطلالات بحرية فاخرة</h3>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b">
+      <h3>عروض شهر العسل</h3>
+    </div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section class="section">
+  <h2>لماذا سيافة ترافل؟</h2>
+  <div class="features">
+    <div class="feature">✔️ أسعار أقل من مواقع الحجز</div>
+    <div class="feature">✔️ حجوزات مؤكدة 100%</div>
+    <div class="feature">✔️ ترقية غرف حسب التوفر</div>
+    <div class="feature">✔️ دعم عربي كامل</div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <h3>Siafa Travel</h3>
+  <p>وكالتك الموثوقة لحجوزات إسطنبول</p>
+</footer>
+
+<!-- WHATSAPP -->
+<a class="whatsapp" href="https://wa.me/905317387785">💬</a>
+
+</body>
+</html>
