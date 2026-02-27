@@ -1,1 +1,27 @@
+:root{
+  --bg:#05060a;
+  --panel:#111217;
+  --gold:#d4af37;
+  --line:rgba(255,255,255,0.08);
+}
 
+*{ box-sizing:border-box; }
+html{ scroll-behavior:smooth; }
+
+body{
+  margin:0;
+  font-family:'Cairo',sans-serif;
+  background:var(--bg);
+  color:#fff;
+  direction:rtl;
+}
+
+a{ color:inherit; }
+
+footer{
+  text-align:center;
+  padding:46px 20px;
+  background:#0b0c10;
+  border-top:1px solid rgba(255,255,255,0.06);
+  opacity:0.9;
+}
