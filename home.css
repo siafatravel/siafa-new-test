@@ -1,1 +1,28 @@
+/* 1) منع فراغات ضخمة بكل سكشن */
+.main .section{
+  min-height:auto;
+}
 
+/* 2) زر الفورم عرض كامل */
+.main form .btn{
+  width:100%;
+  text-align:center;
+}
+
+/* 3) ترتيب أزرار الهيرو على الموبايل */
+.hero-box > div{
+  display:flex;
+  gap:10px;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+@media (max-width:520px){
+  .hero-box > div{
+    flex-direction:column;
+    align-items:center;
+  }
+  .hero-box > div .btn.secondary{
+    width:min(320px, 92%);
+    margin-right:0 !important;
+  }
+}
